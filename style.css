@@ -1,0 +1,269 @@
+body
+        {
+            font-family: 'Segoe UI', sans-serif;
+        }
+        #project-gallery
+        {
+            display: flex;
+            justify-content: space-evenly;
+            gap:10px;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+         * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      
+    }
+    .logo a
+    {
+        color: white;
+        text-decoration: none;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: nowrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: none;
+      color:orange;
+    }
+
+    @media (max-width: 600px)
+     {
+      nav {
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .hero-text h1 {
+    font-size: 2rem;
+  }
+  #work-table
+  {
+    display: block;
+  }
+    }
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left;
+    }
+
+    .footer-logo {
+      flex: 1;
+    }
+
+    .footer-links {
+      flex: 1;
+      justify-content: center;
+    }
+
+    .footer-copy {
+      flex: 1;
+      text-align: right;
+    }
+   
+  }
+
+        #about-me
+        {
+            font-size: 22px;
+        }
+        #about-list
+        {
+          display: block;
+          font-size: 22px;
+          list-style: disc;
+        }
+        #about-table th
+        {
+          background-color:darkorange;
+        }
+        #about-table tr:hover
+        {
+background-color:yellowgreen;
+        }
+        #work-table
+        {
+        font-weight: bold;
+        background-color: palegreen;
+
+        }
+        #project-link
+        {
+          text-align: center;
+        }
+        #logo
+        {
+            margin-top: 10px;
+            color: white;
+        }
+    #bio
+    {
+        font-size: 22px;
+    }
+    #biography
+    {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+    }
+    container 
+    {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.contact-details
+{
+    background-color: sandybrown;
+    font-size: 17px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#contact-button
+{
+    background-color: #005bea;
+    border-radius: 10px;
+    color: #ffffff;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-form input,
+.contact-form textarea 
+{
+  padding: 0.75rem;
+  border: 1px solid #000000;
+  border-radius:10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .footer-links a:hover {
+    text-decoration: none;
+  }
+
+  .footer-copy {
+    font-size: 16px;
+    color: #ccc;
+  }
+  .hero {
+  background: linear-gradient(to right, #005bea, #00c6fb);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #005bea;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e6e6e6;
+}
+#img1
+{
+    background-color: white;
+}
+.about-btn
+{
+  display: inline;
+  background-color: #005bea;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 17px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  text-decoration: none;
+}
+    
