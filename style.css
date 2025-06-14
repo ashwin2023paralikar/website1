@@ -119,9 +119,15 @@ background-color:yellowgreen;
         }
         #work-table
         {
+        border-style: solid;
+        border-color: #000000;
+        background-color: silver;
         font-weight: bold;
-        background-color: palegreen;
-
+        }
+        #project-list
+        {
+        border-style:solid;
+        border-color: #000000;
         }
         #project-link
         {
@@ -142,12 +148,6 @@ background-color:yellowgreen;
         gap: 20px;
         width: 100%;
     }
-    container 
-    {
-  width: 90%;
-  max-width: 800px;
-  margin: 2rem auto;
-}
 
 .contact-section h1 {
   text-align: center;
